@@ -1,0 +1,73 @@
+body {
+  background-color: #a8a7a6;
+}
+
+.sports {
+  display:flex;
+  flex-wrap: wrap;
+}
+img {
+  width: 280px;
+  border: solid;
+  border-radius: 15px;
+  margin: 15px;
+}
+  
+.citation {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.citation > p {
+  font-size: 12px;
+  font-style: italic;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-family:monospace;
+  font-size: 15px;
+}
+
+a:link {
+  color: whitesmoke;
+}
+
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: black;
+  background-color: red;
+}
+
+.gallery {
+  display:flex;
+  flex-wrap:wrap;
+
+}
+
+  .image-card {
+    display:flex;
+    flex-grow:1;
+    padding: 2%;
+    align-content: center;
+   
+    
+
+  }
+
+.info {
+  width: 95%;
+  
+align-content: center;
+
+
+}
